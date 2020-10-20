@@ -111,7 +111,6 @@ class Course(BaseModel):
         # 从时间上是否有活动正在进行
         activity_list = self.course_activity.filter(activity__start_time__lte=datetime.now(), activity__end_time__gte=datetime.now(),is_show=True,is_delete=False).order_by("activity__start_time")
         if len(activity_list) > 0:
-            print(activity_list[0].discount.discount_type)
             return activity_list[0].discount.discount_type.name
         else:
             return ""
