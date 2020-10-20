@@ -1,5 +1,5 @@
 export default {
-  Host: "http://api.lxh1.com",
+  Host: "http://api.ipython.top",
   TC_captcha:{
     app_id: "2059674751",
   },
