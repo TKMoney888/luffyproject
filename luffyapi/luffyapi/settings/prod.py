@@ -26,9 +26,9 @@ sys.path.insert(0,os.path.join(BASE_DIR,"apps"))
 SECRET_KEY = '+=j^8dh#j*#^p+5#)@gz**@!lqnpt^%@%98(0jkm5%sn6yomvu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["api.ipython.top"]
+ALLOWED_HOSTS = ["api.ipython.top","127.0.0.1","47.114.51.135"]
 
 
 # Application definition
