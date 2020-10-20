@@ -1,0 +1,4 @@
+#! /usr/bin/python3
+import random
+ret = random.randint(0,9999)
+print(ret)
