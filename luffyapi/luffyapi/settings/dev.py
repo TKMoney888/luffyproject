@@ -332,3 +332,6 @@ POLYV = {
     "secretkey":"8RKY40w5w5", # 秘钥
     "tokenUrl":"https://hls.videocc.net/service/v1/token",
 }
+
+# 上线前收集静态文件
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
